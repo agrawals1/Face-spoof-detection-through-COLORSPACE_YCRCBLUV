@@ -2,9 +2,9 @@ import sys
 import argparse
 import cv2
 from time import time
-from libfaceid.detector    import FaceDetectorModels, FaceDetector
-from libfaceid.encoder     import FaceEncoderModels, FaceEncoder
-from libfaceid.liveness    import FaceLivenessModels, FaceLiveness
+from utils.detector    import FaceDetectorModels, FaceDetector
+from utils.encoder     import FaceEncoderModels, FaceEncoder
+from utils.liveness    import FaceLivenessModels, FaceLiveness
 
 
 
